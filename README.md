@@ -24,7 +24,5 @@ pinyin db file for [ZSaberLv0/ZFVimIM](https://github.com/ZSaberLv0/ZFVimIM)
 
 # add your own db
 
-see [plugin/ZFVimIM_pinyin.vim](https://github.com/ZSaberLv0/ZFVimIM_pinyin_base/blob/master/plugin/ZFVimIM_pinyin.vim)
-
-also, see [ZSaberLv0/ZFVimIM#cloud-input](https://github.com/ZSaberLv0/ZFVimIM#cloud-input) for more info
+refer to [ZSaberLv0/ZFVimIM](https://github.com/ZSaberLv0/ZFVimIM#make-your-own-db) for more info
 
