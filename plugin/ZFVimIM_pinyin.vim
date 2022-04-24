@@ -6,10 +6,6 @@ function! s:dbInit()
 
     let db = ZFVimIM_dbInit({
                 \   'name' : 'pinyin',
-                \   'priority' : -1,
-                \   'switchable' : 1,
-                \   'editable' : 1,
-                \   'menuLabel' : 0,
                 \ })
     call ZFVimIM_cloudRegister({
                 \   'mode' : 'git',
