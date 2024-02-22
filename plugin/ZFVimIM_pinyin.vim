@@ -19,8 +19,9 @@ function! s:dbInit()
                 \ })
 endfunction
 
-augroup ZFVimIM_pinyin_augroup
-    autocmd!
+if exists('*ZFVimIME_initFlag') && ZFVimIME_initFlag()
+    call s:dbInit()
+else
     autocmd User ZFVimIM_event_OnDbInit call s:dbInit()
-augroup END
+endif
 
